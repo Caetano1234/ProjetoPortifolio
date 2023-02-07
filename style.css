@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu{
+    position: sticky;
+    background-color: azure;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+#apps{
+    background-color: aquamarine;
+    min-height: 50vh;
+}
+
+#jogos{
+    background-color: coral;
+    min-height: 45vh;
+}
+
+#chatbot{
+    background-color: gold;
+    min-height: 50vh;
+}
+
+.line{
+    width: 200px;
+    border-bottom: solid black 4px;
+    margin:auto;
+    margin-bottom: 35px;
+}
+
+.menuItem{
+    list-style-type: none;
+    display: inline;
+    z-index: 10;
+    margin: 10px;
+    font-size: 30px;
+}

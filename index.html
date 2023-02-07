@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <ul id="menu">
+        <li class="menuItem"><a href="#apps">Apps</a></li>
+        <li class="menuItem"><a href="#jogos">Jogos</a></li>
+        <li class="menuItem"><a href="#chatbot">ChatBot</a></li>
+    </ul>
+
+    <!-- Sessao Apps -->
+    <section id="apps">
+        <h1 class="titulo">Apps</h1>
+
+        <div class="line"></div>
+
+        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/MWvTP6GR1b-N0dM6izBgonp2K5Xcx9JCovNv-jGSKrk/embed?nosource"></iframe>
+        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/pgzNnMzfhPblQKUi2dAS7RgwaioFT6BuQ_EA3tFL9iH/embed?nosource"></iframe>
+
+    </section>
+
+    <!-- Sessao de jogos antiga
+        <section id="jogos">
+        <h1>Jogos</h1>
+
+        <div class="line"></div>
+
+        <a href="https://studio.code.org/projects/gamelab/_C-ovgtJIBBYVolp5lF3Z9GNgorG9qMpERhyOqKdAkw" target="_blank"><img src="Imagens/JogoDados.png" alt=""></a>
+
+        <a href="https://studio.code.org/projects/gamelab/OFq6bU7kzhsiTpeC9OTEoOlSk3xcSMp6So_3EIW8VPI" target="_blank"><img src="Imagens/JogoVerdadeOuDesafio.png" alt=""></a>
+
+    </section> -->
+
+     <!-- Sessao Jogos -->
+
+    <section id="jogos">
+
+        <h1>Jogos</h1>
+
+        <div class="line"></div>
+
+        <div id="carouseljogos" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouseljogos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouseljogos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Imagens/JogoVerdadeOuDesafio.png" class="d-block w-25 m-auto mt-4 mb-4" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-black">Jogo da verdade ou desafio</h5>
+                  <p class="text-black">Quer jogar verdade ou desafio mas não tem uma garrafa? Esse é o jogo perfeito para você!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Imagens/JogoDados.png" class="d-block w-25 m-auto mt-4 mb-4" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-info-emphasis">Jogo dos dados</h5>
+                  <p class="text-info-emphasis">Perdeu ou não tem dados para jogar um jogo de RPG, por exemplo? Esse jogo cria dados virtuais para você!</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouseljogos" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouseljogos" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <!-- Sessao ChatBot -->
+    <section id="chatbot">
+        <h1>Chatbot</h1>
+
+        <div class="line"></div>
+
+        <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/d6894c6c-bd04-4715-883c-74ff282ded18"></iframe>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
